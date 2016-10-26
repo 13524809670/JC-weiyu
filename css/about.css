@@ -1,0 +1,79 @@
+/*mainbody */
+h3 a:hover{
+	color: blue
+}
+.main_nav{
+	width: 1200px;
+	background:#f0f0f0;
+	margin:70px auto 58px;
+	height: 55px;
+	line-height: 55px;
+}
+.main_nav ul{
+	width: 410px;
+	margin:0 auto;
+	text-align: center;
+}
+.main_nav li{
+	float: left;
+	height: 100%;
+}
+.main_nav span{
+	padding:0 12px;
+}
+.main_nav li,.main_nav li a{
+	padding-bottom:13px;
+	color: #666;
+	font-size: 16px;
+}
+.main_nav li a:hover{
+	color: #111;
+}
+
+/*content*/
+.com_con{
+	width: 1200px;
+	margin:0 auto;
+	text-align: center;
+}
+.com_con span,
+.text_con span{
+	font-size: 16px;
+	font-weight: 200;
+}
+.com_con b,
+.text_con b{
+	width: 49px;
+	border: 2px solid #555;
+	display: block;
+	margin: 5px auto 35px;
+}
+.com_con p{
+	font-size: 14px;
+	text-align: left;
+	line-height: 30px;
+	margin-bottom:40px;
+}
+.com_con .pic_wrap{
+	width: 100%;
+}
+.pic_wrap img{
+	display: block;
+	float: left;
+	margin-right: 12px;
+	margin-left: 2px;
+}
+
+
+/*文本样式*/
+.text_con {
+	width: 1200px;
+	margin:70px auto 63px;
+	text-align: center;
+}
+.text_con .txt p{
+	font-size: 14px;
+	text-align: left;
+	line-height: 30px;
+	text-indent: 30px;
+}

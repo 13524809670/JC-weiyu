@@ -1,0 +1,222 @@
+h3{
+	font-weight: 400;
+	font-size: 18px;
+	color:#222;
+	text-indent: -11px;
+}
+
+/*产品中心样式*/
+.product{
+	width: 100%;
+	text-align: center;
+	margin:70px auto 35px;
+}
+.product h3 a,
+.about h3 a,
+.news h3 a,
+.contact h3{
+	font-weight: 400;
+	font-size: 16px;
+	color:#222;
+	text-indent: -11px;
+	text-align: center;
+	display: block;
+}
+.product h3 a:hover,
+.about h3 a:hover,
+.news h3 a:hover,
+.about_con a:hover{
+	color: blue;
+}
+.product .border,
+.about .border,
+.news .border,
+.contact .border{
+	width: 100%;
+	margin-top: -30px;
+}
+
+.product .content{
+	width: 1200px;
+	margin:50px auto 0;
+}
+.product .content .img_wrap{
+	width: 229px;
+	height: 213px;
+	float: left;
+}
+.product .content img{
+	width: 100%;
+	height: 180px;
+	border:0;
+}
+.product .content span{
+	display: block;
+	width: 100%;
+	height: 33px;
+	line-height: 33px;
+	background: #ccc;
+	color: #222;
+	text-shadow:1px 1px 1px #999;
+}
+.product .content .img_wrap:hover span{
+	background: #000;
+	color:#fff; 
+}
+.product .content .img_two{
+	margin:0 94px;
+}
+.product .content .img_last{
+	margin-right:95px;
+}
+
+
+/*关于我们样式*/
+.about{
+	width:100%;
+	background: #f8f8f8;
+	text-align: center;
+	padding-top: 40px;
+}
+.about_con{
+	width: 1052px;
+	margin:30px auto 55px;
+	padding-bottom: 57px;
+}
+.about_con p{
+	font-size: 14px;
+	line-height: 30px; 
+	text-align: center;
+	text-shadow:1px 1px 1px #999;
+}
+.about_con img{
+	width: 454px;
+	height: 109px;
+	display: block;
+	margin: 25px auto 10px;
+}
+.about_con span{
+	width: 68px;
+	height: 20px;
+	display: block;
+	text-align: center;
+	line-height: 20px;
+	border:2px solid #555;
+	margin:0 auto;
+}
+.about_con a{
+	font-size: 16px;
+	color: #222;
+	font-weight: 600;
+}
+
+
+
+/*新闻中心样式*/
+.news{
+	width: 100%;
+	margin-bottom:40px;
+}
+.new_con{
+	width: 1200px;
+	margin:0 auto 56px;
+	font-size: 15px;
+}
+.float a img{
+	display: block;
+	width: 210px;
+	height: 125px;
+	float: left;
+}
+.con_txt{
+	width: 260px;
+	float: left;
+	height: 138px;
+	margin-left:24px;
+}
+.new_con p{
+	text-indent: 20px;
+	width: 250px;
+	float: left;
+	margin-left: 24px;
+	line-height: 27px;
+}
+.new_con .link{
+	margin-left:24px;
+	width: 250px;
+	float: left;
+	padding-top:38px;
+}
+.new_con .bottom{
+	padding-top: 31px;
+	display: block;
+}
+.new_con li a:hover{
+	color:red;
+}
+
+
+/*联系我们样式*/
+.contact{
+	width: 100%;
+	padding-bottom: 40px;
+	background: #f8f8f8;
+	padding-top: 25px;
+}
+.contact .contact_con{
+	width: 1200px;
+	margin:0 auto;
+}
+.contact_con .left,
+.contact_con .middle,
+.contact_con .right{
+	float: left;
+	width: 397px;
+	line-height: 26px;
+	height: 160px;
+}
+.contact_con .middle{
+	border-left:2px solid #999;
+	border-right:2px solid #999;
+}
+.contact_con p,
+.contact_con p span{
+	font-size: 14px;
+	color: #222;
+}
+.contact_con .left .first_p,
+.contact_con .middle .first_p{
+	padding-top: 20px;
+}
+
+.contact_con .left p,
+.contact_con .middle p{
+	padding-left: 25px;
+}
+
+.contact_con .right p span{
+	font-size: 14px;
+}
+.contact_con .right p{
+	height: 50px;
+}
+.contact_con .right img{
+	display: block;
+	float: left;
+	margin:8px 20px 0 30px;
+}
+.contact_con .right span{
+	display: block;
+}
+
+.contact .gotop{
+	display: block;
+	position:fixed;
+	bottom:101px;
+	left:50%;
+	margin-left: 600px;
+	height: 38px;
+	width: 35px;
+	cursor: pointer;
+}
+
